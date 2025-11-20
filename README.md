@@ -116,37 +116,6 @@ This architecture separates concerns clearly and enables a robust, maintainable 
 
 The repository is organised to separate the user interface, agent logic, utility functions, and environment configuration.  
 This structure allows the examiner to understand the project quickly and run the system without difficulty.
-
-
-
-📁 **Root Directory**
-│
-├── **README.md**
-│   Main documentation describing the project, architecture, setup steps, and usage.
-│
-├── **app.py**
-│   Streamlit interface used to interact with the agent, upload documents, and display outputs.
-│
-├── **project.ipynb**
-│   Notebook containing experiments, testing notebooks, and development notes related to the agent and tools.
-│
-├── **requirements.txt**
-│   Python dependencies required to run the project.
-│
-├── **.env.example** (optional)
-│   Template for required environment variables (e.g., OPENAI_API_KEY).
-│
-├── **.env** (not tracked)
-│   Local file storing the actual OpenAI API key.
-│
-└── 📁 **utils/**
-├── **utils.py**
-│   Implements the helper functions and tools used by the agent (e.g., PDF extraction).
-│
-└── (additional utility modules if needed)
-
-
-
 Each component is isolated to ensure modularity:
 
 - The **Streamlit interface** is independent of the agent logic.  
