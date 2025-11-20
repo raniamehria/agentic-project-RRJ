@@ -130,28 +130,13 @@ The project relies on a combination of modern AI frameworks, agentic workflow li
 Each technology was selected to support structured reasoning, tool execution, and an accessible user interface.
 
 ### • Python  
-Primary programming language used for the agent, tools, and application logic.
-
 ### • LangChain  
-Framework used to structure prompts, manage LLM interactions, and define tool behaviour.
-
 ### • LangGraph  
-Used to implement the agent’s reasoning workflow as a graph, enabling step-by-step, deterministic reasoning cycles.
-
 ### • OpenAI API  
-Provides the LLM used for document interpretation, question answering, and reasoning.
-
 ### • Streamlit  
-Frontend framework enabling a simple, interactive web interface for uploading documents and interacting with the agent.
-
 ### • PyPDF2  
-Library used for extracting text from PDF documents.
-
 ### • python-dotenv  
-Used to securely load environment variables, including the OpenAI API key.
-
 ### • Additional standard libraries  
-Used for utility functions and support operations within the agent and tools.
 
 
 # 9. Installation Guide
