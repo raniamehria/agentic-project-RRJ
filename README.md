@@ -272,6 +272,16 @@ By combining LangChain, LangGraph, Streamlit, and custom tools, the project deli
 The system offers a clear illustration of structured multi-step reasoning and serves as a foundation for more advanced agentic applications.  
 Its modular architecture makes it easy to extend with new tools, improved document extraction, and richer user interfaces in the future.
 
+# Authors
+
+This project was developed by:
+
+- **Julia Randriatsimivony**  
+- **Rania Mehria**  
+- **Ryme Belouahri**
+
+  ALBERT SCHOOL 2025
+
 
 
 
